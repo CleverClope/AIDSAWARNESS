@@ -137,9 +137,10 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <include layout="@layout/card_popular_courses"/>
-                <include layout="@layout/card_popular_courses"/>
-<!--                <include layout="@layout/card_popular_courses"/>-->
+                <include layout="@layout/card_signs" />
+
+                <include layout="@layout/card_signs" />
+                <!--                <include layout="@layout/card_signs"/>-->
 
             </LinearLayout>
 
@@ -174,9 +175,11 @@
                 android:orientation="horizontal"
                 android:layout_marginTop="20dp">
 
-                <include layout="@layout/card_frutorials"/>
-                <include layout="@layout/card_frutorials"/>
-                <include layout="@layout/card_frutorials"/>
+                <include layout="@layout/card_symptoms" />
+
+                <include layout="@layout/card_symptoms" />
+
+                <include layout="@layout/card_symptoms" />
 
             </LinearLayout>
 
