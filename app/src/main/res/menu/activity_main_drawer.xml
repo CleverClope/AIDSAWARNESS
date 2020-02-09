@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/setreminder"
+            android:title="Set Reminder" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/counselor"
+            android:title="Find a Counselor" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/healthcenters"
+            android:title="Health Centers" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/medicalhistory"
+            android:title="Medical History" />
+    </group>
+
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_dark_mode"
+                android:icon="@drawable/editprofile"
+                android:title="Edit Profile" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+            <item
+                android:id="@+id/appinfo"
+                android:icon="@drawable/appinfo"
+                android:title="App Info" />
+        </menu>
+    </item>
+
+</menu>

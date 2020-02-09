@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        >
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:height="60dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="Enter EMAIL or Username"
+        android:inputType="textEmailAddress|textMultiLine"
+        android:padding="18dp"
+        android:lines="1"
+        android:overScrollMode="never"
+        android:scrollbarStyle="insideInset"
+        android:scrollHorizontally="false"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:background="@drawable/border"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:inputType="textPassword|textMultiLine"
+        android:padding="18dp"
+        android:overScrollMode="never"
+        android:scrollbarStyle="insideInset"
+        android:height="60dp"
+        android:lines="1"
+        android:pointerIcon="arrow"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:scrollHorizontally="false"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="10dp"
+        android:gravity="end"
+        android:layout_marginRight="40dp">
+
+    </TextView>
+    <Button
+        android:id="@+id/buttonLoginwithemail"
+        style="@style/DefaultButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="login"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:text="LOGIN WITH EMAIL" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Here"
+            android:onClick="register"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonLoginwithfacebook"
+        style="@style/DefaultButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="loginwithfacebook"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="LOGIN WITH FACEBOOK" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By continuing you accept our Privacy Policy and Terms of Use"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+/>
+
+</LinearLayout>
