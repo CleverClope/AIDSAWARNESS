@@ -22,7 +22,20 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserHome"></activity>
+        <activity
+            android:name=".Admin.AddCounselor"
+            android:label="Add Counselor"
+            android:parentActivityName=".Admin.AdminActivity" />
+        <activity android:name=".Admin.Account" />
+        <activity android:name=".Admin.AppSettings" />
+        <activity android:name=".Admin.HomeTab" />
+        <activity android:name=".Admin.ViewPagerAdapter" />
+        <activity android:name=".Admin.AdminActivity">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"></meta-data>
+        </activity>
+        <activity android:name=".UserHome" />
         <activity android:name=".SignUp" /> <!-- <activity android:name=".LoginActivity" -->
         <!-- android:windowSoftInputMode="adjustPan"/> -->
         <activity android:name=".LoginActivity">

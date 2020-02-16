@@ -1,11 +1,12 @@
 package com.example.aidsawarness;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.aidsawarness.Admin.AdminActivity;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -17,7 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
-        Intent intent= new Intent(LoginActivity.this, UserHome.class);
+        Intent intent = new Intent(LoginActivity.this, AdminActivity.class);
           startActivity(intent);
     }
 
