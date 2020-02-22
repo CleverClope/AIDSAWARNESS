@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.aidsawarness.R;
@@ -20,7 +19,7 @@ public class Account extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(
-                R.layout.fragment, container, false);
+                R.layout.adminaccount, container, false);
         return rootView;
 
         /**The below code was when the ListView was used in place of RecyclerView. **/
@@ -62,16 +61,16 @@ public class Account extends Fragment {
 
         return view;*/
     }
-
-    @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-        String[] items = getResources().getStringArray(R.array.tab_C);
-        RecyclerViewAdapter adapter = new RecyclerViewAdapter(items);
-        recyclerView = view.findViewById(R.id.recycler_view);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
-        recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setAdapter(adapter);
-    }
+//
+//    @Override
+//    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+//        super.onViewCreated(view, savedInstanceState);
+//
+//        String[] items = getResources().getStringArray(R.array.tab_C);
+//        RecyclerViewAdapter adapter = new RecyclerViewAdapter(items);
+//        recyclerView = view.findViewById(R.id.recycler_view);
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
+//        recyclerView.setLayoutManager(layoutManager);
+//        recyclerView.setAdapter(adapter);
+//    }
 }

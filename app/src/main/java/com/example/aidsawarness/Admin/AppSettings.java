@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.aidsawarness.R;
@@ -20,49 +19,13 @@ public class AppSettings extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(
-                R.layout.fragment, container, false);
+                R.layout.adminappsettings, container, false);
         return rootView;
 
-        /**The below code was when the ListView was used in place of RecyclerView. **/
 
-        /*View view = inflater.inflate(R.layout.fragment_list, container, false);
-
-        list = (ListView) view.findViewById(R.id.list);
-        ArrayList stringList= new ArrayList();
-
-        stringList.add("Item 2A");
-        stringList.add("Item 2B");
-        stringList.add("Item 2C");
-        stringList.add("Item 2D");
-        stringList.add("Item 2E");
-        stringList.add("Item 2F");
-        stringList.add("Item 2G");
-        stringList.add("Item 2H");
-        stringList.add("Item 2I");
-        stringList.add("Item 2J");
-        stringList.add("Item 2K");
-        stringList.add("Item 2L");
-        stringList.add("Item 2M");
-        stringList.add("Item 2N");
-        stringList.add("Item 2O");
-        stringList.add("Item 2P");
-        stringList.add("Item 2Q");
-        stringList.add("Item 2R");
-        stringList.add("Item 2S");
-        stringList.add("Item 2T");
-        stringList.add("Item 2U");
-        stringList.add("Item 2V");
-        stringList.add("Item 2W");
-        stringList.add("Item 2X");
-        stringList.add("Item 2Y");
-        stringList.add("Item 2Z");
-
-        CustomAdapter adapter = new CustomAdapter(stringList,getActivity());
-        list.setAdapter(adapter);
-
-        return view;*/
     }
 
+/*
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -74,4 +37,5 @@ public class AppSettings extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
     }
+*/
 }

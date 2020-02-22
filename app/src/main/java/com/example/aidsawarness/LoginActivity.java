@@ -23,8 +23,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void loginwithfacebook(View view) {
-//        Intent intent= new Intent(LoginActivity.this, LocationPicker.class);
-//        startActivity(intent);
+        Intent intent = new Intent(LoginActivity.this, UserHome.class);
+        startActivity(intent);
     }
 
     public void register(View view) {

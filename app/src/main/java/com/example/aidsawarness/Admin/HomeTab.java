@@ -8,7 +8,6 @@ import android.widget.ListView;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.aidsawarness.R;
@@ -22,8 +21,9 @@ public class HomeTab extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(
-                R.layout.fragment, container, false);
+                R.layout.adminhome, container, false);
         return rootView;
+
 
 
         /**The below code was when the ListView was used in place of RecyclerView. **/
@@ -68,7 +68,8 @@ public class HomeTab extends Fragment {
 
     }
 
-    @Override
+    // @Override
+/*
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
@@ -80,4 +81,5 @@ public class HomeTab extends Fragment {
         recyclerView.setAdapter(adapter);
 
     }
+*/
 }
