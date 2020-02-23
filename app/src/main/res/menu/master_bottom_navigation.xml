@@ -2,27 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigationMenu"
+        android:id="@+id/nav_settings"
         android:icon="@android:drawable/ic_menu_sort_by_size"
         android:title="Settings" />
 
     <item
-        android:id="@+id/navigationMyCourses"
+        android:id="@+id/nav_drugs"
         android:icon="@drawable/ic_effort"
         android:title="Drugs" />
 
     <item
-        android:id="@+id/navigationHome"
+        android:id="@+id/nav_counselor"
         android:icon="@drawable/ic_home"
         android:title="Counselors" />
 
     <item
-        android:id="@+id/navigationSearch"
+        android:id="@+id/nav_tips"
         android:icon="@android:drawable/ic_menu_search"
         android:title="Tips" />
 
     <item
-        android:id="@+id/navigationMyProfile"
+        android:id="@+id/nav_hospitals"
         android:icon="@drawable/ic_user"
         android:title="Hospitals" />
 

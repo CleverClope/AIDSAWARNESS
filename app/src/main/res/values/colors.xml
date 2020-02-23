@@ -9,8 +9,8 @@
     <color name="leku_mid_grey">#9199A1</color>
     <color name="leku_strong_grey">#50545A</color>
     <color name="leku_search_background">#0000</color>
-    <color name="bottomNavigationTextColor">#B2B2B2</color>
-    <color name="bottomNavigationTintColor">#B2B2B2</color>
+    <color name="bottomNavigationTextColor">#862810</color>
+    <color name="bottomNavigationTintColor">#862810</color>
     <color name="bottomNavigationSelectedColor">#FC4926</color>
     <color name="statusBarColor">#000</color>
     <color name="whiteBodyColor">#FCFCFC</color>

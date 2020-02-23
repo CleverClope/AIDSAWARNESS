@@ -31,6 +31,8 @@
         <item>Buy me coffee</item>
 
     </string-array>
+    <string name="dialog_message">AIDS AWARENESS</string>
+    <string name="dialog_title">Bye Bye</string>
     <string name="title_activity_maps">AIDS Awareness</string>
     <string name="gps_network_not_enabled">GPS or network services are disabled. Do you wish to enable them? </string>
     <string name="open_location_settings">Enable GPS</string>
@@ -50,5 +52,6 @@
         <item>Prominence</item>
         <item>Distance</item>
     </string-array>
+    <string name="title_activity_find_hospitals">Find Hospital</string>
 
 </resources>

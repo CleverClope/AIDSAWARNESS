@@ -64,7 +64,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000" />
         <EditText
-            android:id="@+id/lastname"
+            android:id="@+id/phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
@@ -73,8 +73,8 @@
             android:height="60dp"
             android:background="@drawable/border"
             android:gravity="center"
-            android:hint="LAST NAME"
-            android:inputType="textPersonName|textMultiLine"
+            android:hint="Phone Number"
+            android:inputType="number|textMultiLine"
             android:lines="1"
             android:overScrollMode="never"
             android:scrollbarStyle="insideInset"
@@ -83,7 +83,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000" />
         <EditText
-            android:id="@+id/e"
+            android:id="@+id/regemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
@@ -102,7 +102,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textColor="#000" />
         <EditText
-            android:id="@+id/em"
+            android:id="@+id/pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
